@@ -1,3 +1,7 @@
-n = 0
-if n = 0:
-  print("Si)
+Archivo = open("{NombreArchivo}, r")
+LeerArchivo = Archivo.readlines()
+
+ArchivoLista = []
+
+for line in LeerArchivo:
+    ArchivoLista.append(line)
